@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("FinalFrontiersExporter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A simple KSP addon to export the Final Frontiers Hall of Fame to an HTML file, showing what ribbons each kerbal has.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("FinalFrontiersExporter")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
+[assembly: AssemblyCopyright("Copyright © Nyandisk 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
