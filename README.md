@@ -1,6 +1,6 @@
 # FinalFrontiersExporter
 
-A simple KSP plugin that exports the Final Frontiers Hall of Fame ribbons into a very basic HTML file.
+A simple KSP plugin that exports the Final Frontier Hall of Fame ribbons into a very basic HTML file.
 
 ## How to use
 
