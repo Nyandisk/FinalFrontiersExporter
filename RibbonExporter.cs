@@ -27,10 +27,12 @@ namespace FinalFrontiersExporter
             {
                 HallOfFameEntry entry = instance.GetEntry(kerbal);
                 if (entry == null) continue;
+                var ribbons = entry.GetRibbons();
+                if (ribbons.Count == 0) continue;
 
                 sb.Append($"<h2>{kerbal.name}</h2>");
 
-                foreach (Ribbon ribbon in entry.GetRibbons())
+                foreach (Ribbon ribbon in ribbons)
                 {
                     string name = ribbon.GetName();
                     string desc = ribbon.GetDescription();
